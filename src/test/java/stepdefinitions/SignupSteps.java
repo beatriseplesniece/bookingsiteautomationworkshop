@@ -59,6 +59,5 @@ public class SignupSteps {
 
     @Then("^User Account page is opened$")
     public void userAccountPageIsOpened() throws Throwable {
-
     }
 }
