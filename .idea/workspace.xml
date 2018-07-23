@@ -27,7 +27,39 @@
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="true">
+=======
+      <file leaf-file-name="SignupSteps.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/SignupSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hooks.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#118#119#0" expanded="true" />
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="false">
+>>>>>>> Stashed changes
         <entry file="file://$PROJECT_DIR$/src/test/java/testrunner/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -62,8 +94,13 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< Updated upstream
     <option name="x" value="96" />
     <option name="y" value="47" />
+=======
+    <option name="x" value="165" />
+    <option name="y" value="79" />
+>>>>>>> Stashed changes
     <option name="width" value="1343" />
     <option name="height" value="865" />
   </component>
@@ -202,6 +239,14 @@
       <option name="presentableId" value="Default" />
       <updated>1531290527389</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created stepdefinitions file&#10;Created Hooks file&#10;Created methods">
+      <created>1532367685531</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532367685531</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -236,6 +281,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created stepdefinitions file&#10;Created Hooks file&#10;Created methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created stepdefinitions file&#10;Created Hooks file&#10;Created methods" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/signup.feature">
@@ -327,8 +376,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testrunner/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+=======
+        <state relative-caret-position="333">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
