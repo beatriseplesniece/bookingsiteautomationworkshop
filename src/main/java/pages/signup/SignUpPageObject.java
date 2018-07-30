@@ -32,7 +32,7 @@ public class SignUpPageObject {
         return $("test");
     }
 
-    private SelenideElement getSignupButton() {
+    private SelenideElement getSignUpButton() {
         return $("test");
     }
 
@@ -40,28 +40,30 @@ public class SignUpPageObject {
         getFirstNameField().sendKeys(firstName);
     }
 
-    public void enterLastName(String lastName){
+    public void enterLastName(String lastName) {
         getLastNameField().sendKeys(lastName);
     }
 
-    public void enterMobileNumber(String number){
+    public void enterMobileNumber(String number) {
         getMobileNumberField().sendKeys(number);
     }
 
-    public void enterEmail(String email){
+    public void enterEmail(String email) {
         getEmailField().sendKeys(email);
     }
 
-    public void enterPassword(String password){
+    public void enterPassword(String password) {
         getPasswordField().sendKeys(password);
     }
 
-    public void enterConfirmationPassword(String password){
+    public void enterConfirmationPassword(String password) {
         getConfirmPasswordField().sendKeys(password);
     }
 
-    public AccountPageObject selectSignupButton(){
-        getSignupButton().click();
+    public AccountPageObject selectSignUpButton() {
+        getSignUpButton().click();
         return page(AccountPageObject.class);
     }
+
+
 }
