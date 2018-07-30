@@ -13,32 +13,32 @@ public class LoginSteps {
 
     @When("^I select My account drop down menu$")
     public void iSelectMyAccountDropDownMenu() throws Throwable {
-        selectMyAccountDropDownMenu();
+       // selectMyAccountDropDownMenu();
     }
 
     @And("^I select Log in button$")
     public void iSelectLogInButton() throws Throwable {
-        selectLogInButton();
+        //selectLogInButton();
     }
 
     @And("^I enter valid Email address$")
     public void iEnterValidEmailAddress() throws Throwable {
-        enterValidEmailAddress();
+       // enterValidEmailAddress();
     }
 
     @And("^I enter valid Password$")
     public void iEnterValidPassword() throws Throwable {
-        enterValidPassword();
+        //enterValidPassword();
     }
 
     @And("^I tap on check box to remember my log in$")
     public void iTapOnCheckBoxToRememberMyLogIn() throws Throwable {
-        tapOnCheckBoxToRememberMyLogIn();
+        //tapOnCheckBoxToRememberMyLogIn();
     }
 
     @And("^I select Log in button to access account$")
     public void iSelectLogInButtonToAccessAccount() throws Throwable {
-        selectLogInButtonToAccessAccount();
+        //selectLogInButtonToAccessAccount();
     }
 
     @Then("^Existing user Account page is opened$")
