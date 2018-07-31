@@ -42,4 +42,15 @@ public class SignupSteps {
         signup.enterConfirmationPassword(user.getPassword());
     }
 
+    @And("^I create new account$")
+    public void iCreateNewAccount() throws Throwable {
+        iEnterFirstName();
+        iEnterLastName();
+        iEnterMobileNumber();
+        iEnterEmailAddress();
+        iEnterPassword();
+        iConfirmPassword();
+
+    }
+
 }

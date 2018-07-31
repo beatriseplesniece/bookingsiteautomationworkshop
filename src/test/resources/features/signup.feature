@@ -12,6 +12,7 @@ Feature: This feature is about creating new account in the system
       And I confirm Password
       And I select Sign up button
     Then User Account page is opened
+    Then I create new account
 
   Scenario: Unsuccessful sign-up
     Given I have opened homepage

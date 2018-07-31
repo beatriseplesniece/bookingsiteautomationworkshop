@@ -21,6 +21,12 @@ public class HomepageSteps {
 
     @And("^I select Sign up button$")
     public void iSelectSignUpButton() throws Throwable {
-        homepage.selectSignupButton();
+        homepage.selectSignUpButton();
+    }
+
+    @And("^I navigate to Signup page$")
+    public void iNavigateToSignUpPage() throws Throwable {
+        iSelectMyAccountMenu();
+        iSelectSignUpButton();
     }
 }
