@@ -19,12 +19,12 @@ public class LoginSteps {
         signup.iCreateNewAccount();
     }
 
-    @When("^I select My account menu$")
+    @When("^I select My account drop down menu$")
     public void iSelectMyAccountMenu() throws Throwable {
         homepage.selectMyAccountButton();
     }
 
-    @And("^I select Log in button$")
+    @And("^I select Login button$")
     public void iSelectLogInButton() throws Throwable {
         login.selectLoginButton();
     }
@@ -36,12 +36,12 @@ public class LoginSteps {
 
     @And("^I enter valid Password$")
     public void iEnterValidPassword() throws Throwable {
-       login.enterPassword(user.getPassword());
+        login.enterPassword(user.getPassword());
     }
 
     @And("^I tap on check box to remember my log in$")
     public void iTapOnCheckBoxToRememberMyLogIn() throws Throwable {
-       login.selectCheckbox();
+        login.selectCheckbox();
     }
 
     @And("^I select Log in button to access account$")
